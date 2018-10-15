@@ -1,7 +1,6 @@
 version: 2
 jobs:
   build:
-    working_directory: /workdir
     docker:
       - image: circleci/golang:1-stretch-browsers-legacy
         environment:
